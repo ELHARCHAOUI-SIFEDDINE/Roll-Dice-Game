@@ -4,7 +4,7 @@ A fun and interactive web-based dice game where players compete to reach a targe
 
 ## 🕹️ Demo
 
-Check out the live demo [here](https://your-live-demo-url.com).
+Check out the live demo [here](https://roll-dice-game-eosin.vercel.app/).
 
 ## 🚀 Features
 
@@ -27,7 +27,7 @@ Check out the live demo [here](https://your-live-demo-url.com).
 
 ## 📸 Screenshots
 
-![Game Interface](./screenshots/game-interface.png)
+![Game Interface]((https://github.com/ELHARCHAOUI-SIFEDDINE/Roll-Dice-Game/assets/161469816/7a6bb4c7-bdf2-4092-a2d2-f49e08c16b92)
 
 ## 🛴 Setup
 
