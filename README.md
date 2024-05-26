@@ -76,4 +76,4 @@ This project is licensed under the MIT License.
 
 ## 📧 Contact
 
-For any inquiries or feedback, please contact [your-email@example.com](mailto:elharchaouisifeddine@gmail.com).
+For any inquiries or feedback, please contact [elharchaouisifeddine@gmail.com](mailto:elharchaouisifeddine@gmail.com).
