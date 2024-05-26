@@ -29,7 +29,7 @@ rollDiceBtn.addEventListener('click', function () {
 
     // Display dice
     dice.classList.remove('hidden');
-    dice.src = `dice-${diceNumber}.png`;
+    dice.src = `images/dice-${diceNumber}.png`;
 
     // Check if diceNumber != 1, add the dice number to the current score
     if (diceNumber !== 1) {

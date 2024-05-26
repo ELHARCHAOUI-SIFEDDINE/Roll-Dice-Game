@@ -1,0 +1,19 @@
+.bg-color-change {
+    background-color: lightblue;
+
+}
+
+.bg-gradient-custom {
+    background-image: linear-gradient(to bottom right, #ff6347, #4682b4);
+}
+
+.congratulations-message {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    color: gold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
