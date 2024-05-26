@@ -26,8 +26,8 @@ Check out the live demo [here](https://roll-dice-game-eosin.vercel.app/).
 3. **Winning**: The first player to reach a total score of 20 wins. The game will display a congratulatory message and change the background color.
 
 ## 📸 Screenshots
+![rollDice](https://github.com/ELHARCHAOUI-SIFEDDINE/Roll-Dice-Game/assets/161469816/0eff6de6-6e6e-48a0-beee-0aaa956dcd52)
 
-![Game Interface]((https://github.com/ELHARCHAOUI-SIFEDDINE/Roll-Dice-Game/assets/161469816/7a6bb4c7-bdf2-4092-a2d2-f49e08c16b92)
 
 ## 🛴 Setup
 
