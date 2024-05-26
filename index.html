@@ -7,38 +7,35 @@
     <title>Pig Game</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        /* Add your existing CSS styles */
+        /* Custom styles */
+        .bg-color-change {
+            background-color: lightblue;
+            /* Change to the desired color */
+        }
+
         .bg-gradient-custom {
-            background-image: linear-gradient(to bottom right, #eacda3, #d6ae7b);
+            background-image: linear-gradient(to bottom right, #ff6347, #4682b4);
         }
-
-        .bg-gradient-winner {
-            background-image: linear-gradient(to right, #C4E0E5, #4CA1AF)
-        }
-
 
         .congratulations-message {
             position: absolute;
-            top: 0;
-            margin-top: 50px;
-            /* Adjust the margin top as needed */
+            top: 20px;
+            /* Adjust as needed */
             left: 50%;
             transform: translateX(-50%);
-            font-size: 2rem;
-            color: #ff69b4;
-            /* Change the color as desired */
-            font-family: cursive;
-            /* Use a fantastic font family */
+            font-size: 3rem;
+            color: gold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             z-index: 1000;
         }
     </style>
 </head>
 
 <body class="bg-gradient-to-br from-blue-500 to-purple-700 flex justify-center items-center h-screen">
-    <div class="w-full max-w-xl bg-gradient-to-br from-pink-500 to-gray-200 p-8 rounded-lg shadow-md"
+    <div class="w-full max-w-xl relative bg-gradient-to-br from-pink-500 to-gray-200 p-8 rounded-lg shadow-md"
         id="game-container">
-
         <h1 class="text-2xl font-bold mb-4 text-center">Pig Game</h1>
+
         <!-- Players Section -->
         <div class="flex justify-between mb-8">
             <div class="w-1/2">
@@ -52,20 +49,22 @@
                 <p class="text-gray-600 mb-2">Recent Score: <span id="playerRecentScore2">0</span></p>
             </div>
         </div>
+
         <!-- Dice Display -->
         <div class="flex justify-center mb-8">
-            <img src="dice-1.png" id="dice" class="w-14 h-14 ml-11">
-            <!-- Display more dice images as needed -->
+            <img src="dice-1.png" id="dice" class="w-16 h-16 ml-12 hidden">
         </div>
+
         <!-- Buttons -->
         <div class="flex justify-between">
             <button id="newGameBtn" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">New
                 Game</button>
-            <button id="rollDiceBtn" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">Roll Dice
-                <span id="player1CurrentScore"></span></button>
+            <button id="rollDiceBtn" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">Roll
+                Dice</button>
             <button id="holdBtn" class="bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-600">Hold</button>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 
